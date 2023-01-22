@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react'
 import axios from 'axios'
-const endpoint = 'http://e-commerce-production-bf2a.up.railway.app/api'
+const endpoint = 'https://e-commerce-production-bf2a.up.railway.app/api'
 
 const Categories = () => {
 
