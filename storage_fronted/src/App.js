@@ -13,7 +13,7 @@ import React, {useEffect, useState} from 'react'
 import axios from 'axios'
 import Cart from './common/cart/Cart';
 import Footer from './common/footer/Footer';
-const endpoint = 'http://localhost:8000/api'
+const endpoint = process.env.REACT_APP_API;
 
 function App() {
   //Products from databse

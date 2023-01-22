@@ -21,19 +21,19 @@ const Navbar = () => {
                   <Link to='/' style={{ color: 'black', textDecoration: 'none' }}>home</Link>
                 </li>
                 <li>
-                  <Link to='/pages' style={{ color: 'black', textDecoration: 'none' }}>pages</Link>
+                  <Link to='/' style={{ color: 'black', textDecoration: 'none' }}>pages</Link>
                 </li>
                 <li>
-                  <Link to='/user' style={{ color: 'black', textDecoration: 'none' }}>user account</Link>
+                  <Link to='/' style={{ color: 'black', textDecoration: 'none' }}>user account</Link>
                 </li>
                 <li>
-                  <Link to='/vendor' style={{ color: 'black', textDecoration: 'none' }}>vendor account</Link>
+                  <Link to='/' style={{ color: 'black', textDecoration: 'none' }}>vendor account</Link>
                 </li>
                 <li>
-                  <Link to='/track' style={{ color: 'black', textDecoration: 'none' }}>track my order</Link>
+                  <Link to='/' style={{ color: 'black', textDecoration: 'none' }}>track my order</Link>
                 </li>
                 <li>
-                  <Link to='/contact' style={{ color: 'black', textDecoration: 'none' }}>contact</Link>
+                  <Link to='/' style={{ color: 'black', textDecoration: 'none' }}>contact</Link>
                 </li>
               </ul>
               <button className='toggle' onClick={()=>setMobileMenu(!MobileMenu)}>

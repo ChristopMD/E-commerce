@@ -2,19 +2,9 @@ import React, {useEffect, useState} from 'react'
 import axios from 'axios'
 import Slider from 'react-slick'
 
-const endpoint = 'http://localhost:8000/api'
 
 const FlashCard = ({products, addToCart}) => {
-    // const [products, setProducts] = useState( [] )
-    
-    // useEffect(()=>{
-    //     getAllProducts()
-    // },[])
-    // const getAllProducts =  async() =>{
-    //     const response = await axios.get(`${endpoint}/products`)
-    //     setProducts(response.data.data)
-    //     console.log(response.data.data)
-    // }
+
     const NextArrow =(props)=>{
         const {onClick} = props;
         return(

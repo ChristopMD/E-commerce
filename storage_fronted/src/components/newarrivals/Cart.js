@@ -2,7 +2,6 @@ import React from "react"
 
 import Slider from "react-slick"
 
-const endpoint = 'http://localhost:8000/api'
 
 const Cart = ({products}) => {
   const settings = {

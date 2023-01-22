@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react'
 import axios from 'axios'
-const endpoint = 'http://localhost:8000/api'
+const endpoint = process.env.REACT_APP_API;
 
 const Categories = () => {
 
