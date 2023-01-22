@@ -2,10 +2,10 @@ import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 //importar componentes
-import ShowCategories from './components/categories/ShowCategories';
+//import ShowCategories from './components/categories/ShowCategories';
 import CreateCategory from './components/categories/CreateCategory';
 import EditCategory from './components/categories/EditCategory';
-import HomePage from './components/homePage/HomePage';
+//import HomePage from './components/homePage/HomePage';
 import Header from './common/header/Header';
 import Pages from './pages/Pages';
 

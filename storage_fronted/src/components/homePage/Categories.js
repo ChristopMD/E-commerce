@@ -1,12 +1,12 @@
 import React, {useEffect, useState} from 'react'
 import axios from 'axios'
-const endpoint = 'https://e-commerce-production-bf2a.up.railway.app/api'
+const endpoint = process.env.REACT_APP_API;
 
 const Categories = () => {
 
 
   const [categories, setCategories] = useState( [] )
-  const [active, setActive] = useState(true)
+  //const [active, setActive] = useState(true)
 
     useEffect(()=>{
         getAllCategories()
