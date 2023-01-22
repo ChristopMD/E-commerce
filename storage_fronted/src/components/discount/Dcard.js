@@ -24,7 +24,7 @@ const Dcard = ({products}) => {
                   <img src={`data:image/png;base64,${product.img_url}`} style={{maxWidth: '300px', height:'300px'}} alt='' width='100%' />
                 </div>
                 <h4>{product.name}</h4>
-                <span>{product.price}</span>
+                <span>S/. {product.price}</span>
               </div>
           )
         })}

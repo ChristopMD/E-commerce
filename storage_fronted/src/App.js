@@ -28,7 +28,7 @@ function App() {
         //console.log(response.data.data)
     }
     //Products and Brands from database
-    const [subategoryId, setSubcategoryId] = useState(8)
+    const [subategoryId, setSubcategoryId] = useState(26)
     const [productsBySubcategory, setProductsBySubcategory] = useState( [] )
     const [brandsBySubcategory, setBrandsBySubcategory] = useState( [] )
   
