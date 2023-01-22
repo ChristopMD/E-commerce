@@ -16,8 +16,8 @@ const Shop = ({ addToCart, productsBySubcategory, brandsBySubcategory }) => {
                 <h2>Mobile Phones</h2>
               </div>
               <div className='heading-right row '>
-                <span>View all</span>
-                <i className='fa-solid fa-caret-right'></i>
+                <span>View all <i className='fa-solid fa-caret-right'></i> </span>
+                
               </div>
             </div>
             <div className='product-content  grid1'>
